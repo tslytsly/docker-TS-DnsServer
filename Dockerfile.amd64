@@ -2,7 +2,7 @@ FROM roxedus/base-alpine:latest
 
 ENV DOTNET_VER=3.1.0 DOTNET_ARCH=x64
 
-LABEL maintainer=Roxedus
+LABEL maintainer=Tslytsly
 LABEL dotnet_version=${DOTNET_VER} dotnet_arch=${DOTNET_ARCH}
 
 RUN \
